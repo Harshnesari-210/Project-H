@@ -22,4 +22,4 @@ const projectK = () => {
 };
 
 // Call the projectK function to show the popup when the script loads
-projectK();
+window.onload = projectK;
