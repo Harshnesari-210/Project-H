@@ -1,4 +1,6 @@
-// app.js
+
+console.log("i am here!!");
+
 window.projectK = () => {
     // Create a new div element
     var popup = document.createElement("div");
@@ -21,5 +23,3 @@ window.projectK = () => {
         popup.style.display = "none"; // Hide the popup after 5 seconds
     }, 5000);
 };
-
-console.log("i am here!!");
