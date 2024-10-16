@@ -21,3 +21,5 @@ window.projectK = () => {
         popup.style.display = "none"; // Hide the popup after 5 seconds
     }, 5000);
 };
+
+console.log("i am here!!");
