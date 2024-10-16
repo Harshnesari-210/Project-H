@@ -1,10 +1,11 @@
-const projectK = () => {
+// app.js
+window.projectK = () => {
     // Create a new div element
     var popup = document.createElement("div");
 
     // Set styles for the popup
     popup.style.height = "30px";
-    popup.style.width = "200px"; // Adjusted width for better visibility
+    popup.style.width = "200px";
     popup.style.backgroundColor = "black"; // Background color
     popup.style.color = "white"; // Text color
     popup.style.position = "fixed"; // Make it fixed on the screen
@@ -20,5 +21,3 @@ const projectK = () => {
         popup.style.display = "none"; // Hide the popup after 5 seconds
     }, 5000);
 };
-
-
