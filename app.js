@@ -30,7 +30,7 @@ async window.projectK = () => {
                     popup.style.right = "10px";
                     popup.innerHTML = "Someone just signed up!";
 
-                    document.body.appendChild(popup);
+                    //document.body.appendChild(popup);
 
                     setTimeout(() => {
                         popup.style.display = "none";
