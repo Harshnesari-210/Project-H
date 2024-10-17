@@ -40,7 +40,7 @@ async function projectK(){
                     popup.style.position = "fixed";
                     popup.style.top = "10px";
                     popup.style.right = "10px";
-                    popup.innerHTML = `${count poplese are signup last 30 minutes ago}`;
+                    popup.innerHTML = `${count} poplese are signup last 30 minutes ago`;
 
                     document.body.appendChild(popup);
 
