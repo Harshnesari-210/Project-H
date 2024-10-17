@@ -1,6 +1,6 @@
 
 
-async projectK = () => {
+async function projectK(){
     // Create a new div element
     var popup = document.createElement("div");
     
