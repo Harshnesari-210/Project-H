@@ -1,6 +1,6 @@
 
 
-async window.projectK = () => {
+async projectK = () => {
     // Create a new div element
     var popup = document.createElement("div");
     
