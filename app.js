@@ -65,8 +65,8 @@ async function projectK() {
     var popup = document.createElement("div");
     
     const user = {
-        firstName: "John",
-        lastName: "Doe"
+        firstName: document.getElementById("fname").value,
+        lastName: document.getElementById("lname").value
     };
 
     try {
